@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>翻轉圖卡效果</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="game-start">
+        <label for="themeSelect">選擇主題：</label>
+        <select id="themeSelect">
+            <option value="cat">Cat</option>
+            <option value="ghost">Ghost</option>
+        </select>
+        <button id="startGame">開始遊戲</button>
+    </div>
+    
+    <div class="controls" style="display: none;">
+        <button id="flipFront">全部翻轉正面</button>
+        <button id="flipBack">全部翻轉反面</button>
+    </div>
+
+    <div class="container" id="cardContainer" style="display: none;"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
